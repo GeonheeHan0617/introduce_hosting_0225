@@ -16,9 +16,19 @@ export default new Router({
       component: () =>import('./components/Introduce.vue')
     },
     {
+      path: '/carrea',
+      name: 'carrea',
+      component: () => import('./components/Carrea.vue')
+    },
+    {
+      path: '/gh-project',
+      name: 'gh-project',
+      component: () => import('./components/Gh-Project.vue')
+    },
+    {
       path: '/contact',
       name: 'contact',
       component: () => import('./components/Contact.vue')
-    }
+    },
   ]
 })
